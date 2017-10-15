@@ -331,6 +331,7 @@ body {
     min-height: 350px;
     background-color: #fff;
     margin-top: 10px;
+    overflow: hidden;
 }
 
 .news_type {
@@ -345,6 +346,7 @@ body {
     min-height: 350px;
     border: 1px solid #e8e8e8;
     float: right;
+    background-color: #fff;
 }
 
 .news_type h2 {
@@ -392,7 +394,50 @@ body {
     padding-left: 20px;
 }
 
+.page {
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
 
+.page a {
+    border: 1px solid #e8e8e8;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.page a:link, 
+.page a:visited {
+    color: #000;
+}
+
+.page a:hover, 
+.page a:active {
+    color: #fff;
+    background-color: #cc1b1b;
+}
+
+.list_box h1 {
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.list_box_newsInfo {
+    color: #666;
+    text-align: center;
+    border-bottom: 1px dotted #666;
+}
+
+.list_box_newsContent {
+    font-size: 14px;
+    padding: 20px;
+    line-height: 25px;
+    text-indent: 2em;
+}
 
 
 
