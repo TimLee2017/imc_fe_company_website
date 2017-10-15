@@ -148,4 +148,9 @@ body {
     border: 1px solid #fff;
 }
 
+.ad {
+    height: 310px;
+    overflow: hidden;
+}
+
 
