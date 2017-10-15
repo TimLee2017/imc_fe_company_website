@@ -226,6 +226,36 @@ body {
     text-decoration: none;
 }
 
+.news_list {
+    margin-top: 20px;
+}
+
+.news_list li {
+    list-style-type: none;
+    background: url(../images/list.jpg) no-repeat;
+    padding-left: 10px;
+    margin: 8px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.news_list li a:link,
+.news_list li a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.news_list li a:hover,
+.news_list li a:visited {
+    text-decoration: none;
+    color: #F00;
+}
+
+.news_list span {
+    color: #999;
+    float: right;
+}
+
+
 
 
 
